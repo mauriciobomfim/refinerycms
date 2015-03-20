@@ -14,7 +14,7 @@ es:
         see_home_page: Ver la página principal
       recent_activity:
         latest_activity: Última actividad
-        latest_activity_message: %{kind} %{what} ha sido %{action}
+        latest_activity_message: kind what ha sido action
       recent_inquiries:
         latest_inquiries: Últimas solicitudes
   updated:
