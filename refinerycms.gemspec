@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.executables       = %w(refinerycms)
 
   s.add_dependency    'rails',                '~> 3.0.3'
-  s.add_dependency    'bundler',              '~> 1.7.12'
+  s.add_dependency    'bundler',              '~> 1.6.3'
 
   s.add_dependency    'moretea-awesome_nested_set', '= 1.4.3.1'
 
