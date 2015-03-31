@@ -21,9 +21,9 @@ en:
         cancel: Cancel
   refinery:
     crudify:
-      created: "%{what}" was successfully added.
-      updated: "%{what}" was successfully updated.
-      destroyed: "%{what}" was successfully removed.
+      created: "%{what} was successfully added."
+      updated: "%{what} was successfully updated."
+      destroyed: "%{what} was successfully removed."
   shared:
     site_bar:
       log_out: Log out
@@ -41,8 +41,8 @@ en:
         next: Next
         close: Close
       image_picker:
-        none_selected: There is currently no "%{what}" selected, please click here to add one.
-        remove_current: Remove current "%{what}"
+        none_selected: "There is currently no %{what} selected, please click here to add one."
+        remove_current: "Remove current %{what}"
         change: Click here to pick a image
         show: Show
       resource_picker:
@@ -54,10 +54,10 @@ en:
         current: Current File
       search:
         button_text: Search
-        results_for: Search results for '%{query}'
+        results_for: "Search results for %{query}"
         no_results: Sorry, no results found
       delete:
-        message: Are you sure you want to remove '%{title}'?
+        message: "Are you sure you want to remove %{title}?"
       error_messages:
         problems_in_following_fields: There were problems with the following fields
       help: help
