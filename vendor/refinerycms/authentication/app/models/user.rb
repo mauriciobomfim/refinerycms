@@ -48,7 +48,7 @@ class User < ActiveRecord::Base
   end
 
   def authorized_plugins
-    self.plugins.collect { |p| p.name } | Refinery::Plugins.always_allowed.names
+    self.plugins.collect { |p| p.name } #| Refinery::Plugins.always_allowed.names
   end
 
   def can_delete?(user_to_delete = self)
